@@ -1,0 +1,12 @@
+{
+    "files.associations": {
+        "*.ino": "arduino",
+        "stdbool.h": "c",
+        "stdlib.h": "c",
+        "read.h": "c",
+        "parse_info.h": "c",
+        "stdio.h": "c",
+        "compress.h": "c",
+        "should": "c"
+    }
+}

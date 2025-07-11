@@ -1,0 +1,7 @@
+--- start tempo ---
+80
+--- end tempo ---
+
+--- start melody ---
+  // melody goes here
+--- end melody ---
