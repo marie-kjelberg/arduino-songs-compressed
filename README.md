@@ -3,7 +3,7 @@ Arduino memory is wayyyy to small for most songs, so I made this.
 ![the new mona lisa](<imgs/the new mona lisa.png>)
 
 ## How to use:
-This project is based on the great work done by Robson Couto & Co. in the [arduino songs](https://github.com/robsoncouto/arduino-songs) repo. Simply copy and paste one of their melodies and the song tempo into the ``input.txt`` and build the program using the makefile. Then you can run the file. Then an ``output.ino`` file should appear with your full file. Simply upload it to your arduino and you should be good to go! (NOTE: I changed the buzzers power line to the ``A0`` pin, but this can be changed in the code).
+This project is based on the great work done by Robson Couto & Co. in the [arduino songs](https://github.com/robsoncouto/arduino-songs) repo. Simply copy and paste one of their melodies and the song tempo into the ``input.txt`` and build the program using the makefile. Then you can run the file. Then an ``output.ino`` file should appear with your full file in the ``output`` directory. Simply upload it to your arduino and you should be good to go! (NOTE: I changed the buzzers power line to the ``A0`` pin, but this can be changed in the code).
 
 This program should approxiamtly half the used space for storing the song itself. I also made it use the flash memory instead of using it in the SRAM. This should allow you to do multiple things with your arduino at the same time (such as displaying an OLED image).
 
