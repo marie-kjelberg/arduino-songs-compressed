@@ -1,7 +1,7 @@
-CXX = g++
+CXX = gcc
 # CXXFLAGS = 
 TARGET = a.out # modify at will
-SRCS = main.c parse_info.c compress.c write_output.c
+SRCS = ./src/main.c ./src/parse_info.c ./src/compress.c ./src/write_output.c -lm
 
 all: $(TARGET)
 

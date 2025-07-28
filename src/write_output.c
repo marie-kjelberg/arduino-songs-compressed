@@ -1,4 +1,4 @@
-#include "write_output.h"
+#include "../include/write_output.h"
 
 void replace_and_write(const char *line, FILE *outfile, char *target, char* replacement) {
     const char *pos = line;

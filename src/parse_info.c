@@ -1,4 +1,4 @@
-#include "parse_info.h"
+#include "../include/parse_info.h"
 
 char* read_section(FILE *file, char* contentName) {
     // pain - should probs use snprinft, but whatever

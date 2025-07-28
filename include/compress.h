@@ -1,6 +1,6 @@
 #include <stdio.h>
 #include <stdlib.h>
-#include <cstring>
+#include <string.h>
 #include <stdbool.h>
 
 int findElementIndex(int arr[], int size, int target);

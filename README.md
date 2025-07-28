@@ -1,6 +1,6 @@
 # arduino-songs-compressed
 Arduino memory is wayyyy to small for most songs, so I made this.
-![the new mona lisa](https://raw.githubusercontent.com/marie-kjelberg/arduino-songs-compressed/main/the%20new%20mona%20lisa.png)
+![the new mona lisa](<imgs/the new mona lisa.png>)
 
 This project is based on the great work done by Robson Couto & Co. in the [arduino songs](https://github.com/robsoncouto/arduino-songs) repo. Simply copy and paste one of their melodies and the song tempo into the ``input.txt`` and run the program. Then an ``output.ino`` file should appear with your full file. Simply upload it to your arduino and you should be good to go! (NOTE: I changed the buzzers power line to the ``A0`` pin, but this can be changed in the code).
 

@@ -1,4 +1,4 @@
-#include "compress.h"
+#include "../include/compress.h"
 
 int findElementIndex(int arr[], int size, int target) {
     for (int i = 0; i < size; i++) {
