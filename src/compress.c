@@ -42,7 +42,7 @@ int *make_lookup_table(int *melody) {
     int sizeMel = melody[0];
     int unique_elements = count_unique_sorted(melody, sizeMel);
 
-    int *lookup = (int*) malloc((unique_elements) * sizeof(int));
+    int *lookup = malloc((unique_elements) * sizeof(int));
     if (!lookup) {
         return NULL;
     }
