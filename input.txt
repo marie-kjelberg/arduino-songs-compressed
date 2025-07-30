@@ -1,5 +1,5 @@
 --- start tempo ---
-80
+80 /*e */
 --- end tempo ---
 
 --- start melody ---

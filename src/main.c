@@ -14,6 +14,8 @@ int main() {
     // get the tempo
     char tempo[] = "tempo";
     char *tempo_number = read_section(file, tempo);
+    strip_comments(tempo_number); // this should fix the comment problem
+    // honestly /* */ isn't a problem here. It's from here on out a feature
 
     // get the melody 
     char melody[] = "melody";
